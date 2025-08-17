@@ -22,6 +22,7 @@ export default function App (){
         won: isGameWon,
         notOver: guessedLetter.length > 0 && !isGameOver,
         lost: isGameLost,
+        active: guessedLetter.length > 0
     })
     
     function renderGameStatus() {
